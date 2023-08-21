@@ -1,341 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AXIT</title>
-    
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@100;600&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="assets/style/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AXIT</title>
+	
+	<link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@100;600&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="assets/style/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
+		let wow = new WOW ({
+			boxClass:     'wow',
+			animateClass: 'animate__animated',
+			mobile:       false,
+			live:         true
+		});
+		wow.init();
+	</script>
 </head>
 <body>
-<!--Navbar-->
-    <div class="navbar">
-        <div class="container">
-            <div class="navbar_inner">
-                <a href="#"><img src="assets/img/logo.png" alt="Logo"></a>
-                <nav class="nav">
-                    <a class="nav_link" href="#">Features</a>
-                    <a class="nav_link" href="#">About</a>
-                    <a class="nav_link" href="#">Pricing</a>
-                    <a class="nav_link" href="#">Reviews</a>
-                    <a class="nav_link" href="#">Contact</a>
-                </nav>
-            </div>
-        </div>
-    </div>
 
-<!--Header-->
-    <div class="header">
-        <div class="container">
-            <div class="header_inner">
-                <div class="header_info">
-                    <div class="header_logo"><img src="assets/img/header_logo.png" alt="Logo"></div>
-                    <h1 class="header_title">MODERN AXURE TEMPLATE
-                        FOR BEAUTIFUL PROTOTYPES</h1>
-                    <h2 class="header_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-                        accumsan et viverra justo commodo.</h2>
-                    <p><a class="header_btn" href="#">Download</a></p>
-                </div>
+<section class="navbar">
+	<div class="container">
+		<div class="navbar_inner">
+			<a href="#"><img src="assets/img/logo.png" alt="Logo"></a>
+			<nav class="nav">
+				<a href="#">Features</a>
+				<a href="#">About</a>
+				<a href="#">Pricing</a>
+				<a href="#">Reviews</a>
+				<a href="#">Contact</a>
+			</nav>
+		</div>
+	</div>
+</section>
 
-                <div class="signup">
-                    <form action="" class="signup_form">
-                        <p class="form_title">Try Your <span class="free">FREE</span> Trial Today</p>
-                        <p><input type="text" name="Name" placeholder="Name"></p>
-                        <p><input type="text" name="Email" placeholder="Email"></p>
-                        <p><input type="text" name="Password" placeholder="Password"></p>
-                        <button class="sign_btn">Get Started</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+<header class="header">
+	<div class="container">
+		<div class="header_inner">
+			<div class="header_info">
+				<div class="header_logo">
+					<img src="assets/img/header_logo.png" alt="Logo">
+				</div>
+				<h1 class="header_title">MODERN AXURE TEMPLATE
+					FOR BEAUTIFUL PROTOTYPES
+				</h1>
+				<h2 class="header_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+					euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+					accumsan et viverra justo commodo.
+				</h2>
+				<button class="download_btn" href="#">Download</button>
+			</div>
+			<div class="signup">
+				<form class="signup_form">
+					<p class="form_title">Try Your <span>FREE</span> Trial Today</p>
+					<p><input type="text" name="Name" placeholder="Name"></p>
+					<p><input type="text" name="Email" placeholder="Email"></p>
+					<p><input type="text" name="Password" placeholder="Password"></p>
+					<button class="sign_btn">Get Started</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
 
-<!--BrendBar-->
-    <div class="brendBar">
-        <div class="container">
-            <div class="brendBar_inner">
-                <div class="brendBar_info">
-                    <p class="brendBar_title">Social Media</p>
-                    <p class="brendBar_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                        Aenean euismod bibendum laoreet.</p>
-                </div>
-                <div class="socialMedia">
-                    <a class="social_link" href="#"><img src="assets/img/Social/VK_black.svg" alt="Vkontakte"></a>
-                    <a class="social_link" href="#"><img src="assets/img/Social/Instagram_black.svg" alt="Instagram"></a>
-                    <a class="social_link" href="#"><img src="assets/img/Social/Facebook_black.svg" alt="Facebook"></a>
-                    <a class="social_link" href="#"><img src="assets/img/Social/Telegram_black.svg" alt="Telegram"></a>
-                    <a class="social_link" href="#"><img src="assets/img/Social/Twitter_black.svg" alt="Titter"></a>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="brendBar">
+	<div class="container">
+		<div class="brendBar_inner">
+			<div class="brendBar_info">
+				<p class="brendBar_title">Social Media</p>
+				<p class="brendBar_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+					Aenean euismod bibendum laoreet.
+				</p>
+			</div>
+			<div class="socialMedia wow animate__fadeInRight">
+				<a href="#"><img src="assets/img/Social/VK_black.svg" alt="Vkontakte"></a>
+				<a href="#"><img src="assets/img/Social/Instagram_black.svg" alt="Instagram"></a>
+				<a href="#"><img src="assets/img/Social/Facebook_black.svg" alt="Facebook"></a>
+				<a href="#"><img src="assets/img/Social/Telegram_black.svg" alt="Telegram"></a>
+				<a href="#"><img src="assets/img/Social/Twitter_black.svg" alt="Titter"></a>
+			</div>
+		</div>
+	</div>
+</section>
 
-<!--Features-->
-    <div class="feateres_1">
-        <div class="container">
-            <div class="features_inner">
-                <div class="features_switch">
-                    <button class="switch_btn">Tab 1</button>
-                    <button class="switch_btn">Tab 2</button>
-                    <button class="switch_btn">Tab 3</button>
-                </div>
+<section class="features">
+	<div class="feateres-slider">
+		<div class="container">
+			<div class="feateres-slider_inner">
+				<div class="features-switch">
+					<button class="active">Tab 1</button>
+					<button>Tab 2</button>
+					<button>Tab 3</button>
+				</div>
+				<div class="features-info">
+					<p class="features-info_title">Tabs with soft transitioning effect.</p>
+					<p class="features-info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+						bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+						justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+						penatibus et magnis dis parturient montes.
+					</p>
+					<p class="features-info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+						bibendum laoreet.
+					</p>
+					<button class="features_btn">Download</button>
+				</div>
+				<div>
+					<img src="assets/img/city.png" alt="img">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="feateres-card">
+		<div class="container">
+			<div class="features-card_inner">
+				<div class="features-card_foto wow animate__fadeInLeft">
+					<img src="assets/img/placehold_foto.jpg" alt="img">
+				</div>
+				<div class="features-card_info">
+					<p class="features-card_title">Sub list section</p>
+					<div>
+						<img src="assets/img/orange-line.png" alt="line">
+					</div>
+					<p class="features-card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+							euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+							accumsan et viverra justo commodo.
+					</p>
+					<p class="features-card_title">Title</p>
+					<p class="features-card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+					</p>
+					<p class="features-card_title">Title</p>
+					<p class="features-card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="feateres-card feateres-card--right-foto">
+		<div class="container">
+			<div class="features-card_inner feateres-card_inner--right-foto">
+				<div class="features-card_foto wow animate__fadeInRight">
+					<img src="assets/img/placehold_foto.jpg" alt="img">
+				</div>
+				<div class="features-card_info">
+					<p class="features-card_title">Sub list section</p>
+					<div>
+						<img src="assets/img/orange-line.png" alt="line">
+					</div>
+					<p class="features-card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+							euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+							accumsan et viverra justo commodo.
+					</p>
+					<p class="features-card_title">Title</p>
+					<p class="features-card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+					</p>
+					<p class="features-card_title">Title</p>
+					<p class="features-card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-                <div class="features_info">
-                    <p class="title">Tabs with soft transitioning effect.</p>
-                    <p class="subtitle_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.</p>
-                    <p class="subtitle_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet.</p>
-                    <button class="features_btn">Download</button>
-                </div>
-
-                <div><img src="assets/img/image_right_u255.png" alt="img"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="feateres_2">
-        <div class="container">
-            <div class="features_inner">
-                <div class="features_foto">
-                    <img src="assets/img/placehold_foto.jpg" alt="img">
-                </div>
-
-                <div class="features_2_info">
-                    <p class="features_title">Sub list section</p>
-                    <div style="margin: 15px 0"><img src="assets/img/divider_orange_u7 copy 4.png" alt="img"></div>
-                    <p class="features_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-                        accumsan et viverra justo commodo.</p>
-                    <p class="features_title">Title</p>
-                    <p class="features_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-                    <p class="features_title">Title</p>
-                    <p class="features_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="feateres_3">
-        <div class="container">
-            <div class="features_inner">
-                <div class="features_3_info">
-                    <p class="features_title">Standard Picture Section</p>
-                    <div style="margin: 15px 0"><img src="assets/img/divider_orange_u7 copy 4.png" alt="img"></div>
-                    <p class="features_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
-                        et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis
-                        natoque penatibus et magnis dis parturient montes.</p>
-                    <p class="features_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet.</p>
-                </div>
-
-                <div class="features_foto">
-                    <img src="assets/img/placehold_foto.jpg" alt="img">
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!--Our Project-->
-    <div class="project">
-        <div class="container">
-            <div class="project_inner">
-                <p class="project_title">WHY THIS IS AWESOME</p>
-                <div style="margin: 20px 0"><img src="assets/img/divider_orange_u7 copy 4.png" alt="img"></div>
-                <p class="project_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-
-            <div class="project_info">
-                <div class="project_item">
-                    <div style="margin-bottom: 30px"><img src="assets/img/project_icon.png" alt="icon"></div>
-                    <p class="proj_title">Thoughtful Design</p>
-                    <p class="proj_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida
-                        dolor sit amet lacus accumsan et viverra.</p>
-                </div>
-                <div class="project_item">
-                    <div style="margin-bottom: 30px"><img src="assets/img/project_icon.png" alt="icon"></div>
-                    <p class="proj_title">Well Crafted</p>
-                    <p class="proj_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida
-                        dolor sit amet lacus accumsan et viverra.</p>
-                </div>
-                <div class="project_item">
-                    <div style="margin-bottom: 30px"><img src="assets/img/project_icon.png" alt="icon"></div>
-                    <p class="proj_title">Easy to Customize</p>
-                    <p class="proj_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida
-                        dolor sit amet lacus accumsan et viverra.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!--Pricing-->
-    <div class="pricing">
-        <div class="container">
-            <div class="pricing_inner">
-                <p class="pricing_title">PRICING OPTIONS</p>
-                <div style="margin: 20px 0"><img src="assets/img/divider_orange_u7 copy 4.png" alt="img"></div>
-                <p class="pricing_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-
-            <div class="pricing_info">
-                <div class="pricing_item">
-                    <p class="price_title">Basic</p>
-                    <p class="price">$<span style="font-size: 2.7em">0</span></p>
-                    <p class="price_subtitle">Free for Life</p>
-                    <ul class="opportunities">
-                        <li>1 gb of space</li>
-                        <li>10 gb of bandwidth</li>
-                        <li>3 websites</li>
-                        <li>Basic Customization</li>
-                        <li>wordpress integration</li>
-                        <li>email support</li>
-                    </ul>
-                </div>
-                <div class="pricing_item pricing_item-main">
-                    <p class="price_title">Professional</p>
-                    <p class="price">$<span style="font-size: 2.7em">19</span></p>
-                    <p class="price_subtitle price_subtitle-main">Monthly Payment</p>
-                    <ul class="opportunities">
-                        <li class="popular">OUR MOST POPULAR</li>
-                        <li>5 gb of space</li>
-                        <li>50 gb of bandwidth</li>
-                        <li>12 websites</li>
-                        <li>Advanced Customization</li>
-                        <li>wordpress integration</li>
-                        <li>email support</li>
-                    </ul>
-                </div>
-                <div class="pricing_item">
-                    <p class="price_title">Enterprise</p>
-                    <p class="price">$<span style="font-size: 2.7em">70</span></p>
-                    <p class="price_subtitle">Monthly Payment</p>
-                    <ul class="opportunities">
-                        <li>Unlimited space</li>
-                        <li>unlimited bandwidth</li>
-                        <li>100 websites</li>
-                        <li>Advanced Customization</li>
-                        <li>wordpress integration</li>
-                        <li>24/7 customer support</li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-<!--Testimonials-->
-<div class="testimonials">
-    <div class="container">
-        <div class="pricing_inner">
-            <p class="pricing_title">WHAT OUR CUSTOMERS ARE SAYING</p>
-            <div style="margin: 20px 0"><img src="assets/img/divider_orange_u7 copy 4.png" alt="img"></div>
-            <p class="pricing_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-        <div class="testimonials_items">
-            <div class="testimonials_item">
-                <div class="testimonials_text">
-                    <p class="text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.</p>
-                </div>
-                <div class="person">
-                    <img src="assets/img/avatar.png" alt="avatar">
-                    <div class="person_info">
-                        <p class="person_name">Jeremy H.</p>
-                        <p class="person_post">Manager</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonials_item">
-                <div class="testimonials_text">
-                    <p class="text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.</p>
-                </div>
-                <div class="person">
-                    <img src="assets/img/avatar.png" alt="avatar">
-                    <div class="person_info">
-                        <p class="person_name">John S.</p>
-                        <p class="person_post">Freelancer</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonials_item">
-                <div class="testimonials_text">
-                    <p class="text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.</p>
-                </div>
-                <div class="person">
-                    <img src="assets/img/avatar.png" alt="avatar">
-                    <div class="person_info">
-                        <p class="person_name">Susan W.</p>
-                        <p class="person_post">Photographer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="project">	
+	<div class="container">
+		<div class="project_inner">
+			<p class="section-title">WHY THIS IS AWESOME</p>
+			<div>
+				<img src="assets/img/orange-line.png" alt="line">
+			</div>
+			<p class="section-subtitle">Lorem ipsum dolor sit amet, 
+				consectetur adipiscing elit.
+			</p>
+		</div>
+		<div class="project_info">
+			<div class="project_item wow animate__fadeInUp" data-wow-delay="0.2s">
+				<div>
+					<img src="assets/img/project_icon.png" alt="icon">
+				</div>
+				<p class="project_item-title">Thoughtful Design</p>
+				<p class="project_item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+					elit. Aenean euismod bibendum laoreet. Proin gravida
+					dolor sit amet lacus accumsan et viverra.
+				</p>
+			</div>
+			<div class="project_item wow animate__fadeInUp" data-wow-delay="0.4s">
+				<div>
+					<img src="assets/img/project_icon.png" alt="icon">
+				</div>
+				<p class="project_item-title">Well Crafted</p>
+				<p class="project_item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+					elit. Aenean euismod bibendum laoreet. Proin gravida
+					dolor sit amet lacus accumsan et viverra.
+				</p>
+			</div>
+			<div class="project_item wow animate__fadeInUp" data-wow-delay="0.6s">
+				<div>
+					<img src="assets/img/project_icon.png" alt="icon">
+				</div>
+				<p class="project_item-title">Easy to Customize</p>
+				<p class="project_item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+					elit. Aenean euismod bibendum laoreet. Proin gravida
+					dolor sit amet lacus accumsan et viverra.
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
 
-<!--Custom-->
-<div class="custom">
-    <div class="container">
-        <p class="custom_title">STYLISH AXURE DESIGN</p>
-        <div style="margin: 20px 0"><img src="assets/img/divider_white_u72%20copy.png" alt="img"></div>
-        <p class="custom_subtitle">Use the sections you need, remove the ones you don't.
-            Create gorgeous prototypes faster than ever!</p>
-        <p><a class="header_btn" href="#">Download</a></p>
-    </div>
-</div>
+<section class="pricing">
+	<div class="container">
+		<div class="pricing_inner">
+			<p class="section-title">PRICING OPTIONS</p>
+			<div>
+				<img src="assets/img/orange-line.png" alt="line">
+			</div>
+			<p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="pricing_info">
+			<div class="pricing_item wow animate__fadeInUp" data-wow-delay="0.4s">
+				<p class="pricing_item-title">Basic</p>
+				<p class="price">$<span>0</span></p>
+				<p class="pricing_item-subtitle">Free for Life</p>
+				<ul class="opportunities">
+					<li>1 gb of space</li>
+					<li>10 gb of bandwidth</li>
+					<li>3 websites</li>
+					<li>Basic Customization</li>
+					<li>wordpress integration</li>
+					<li>email support</li>
+				</ul>
+			</div>
+			<div class="pricing_item pricing_item-main wow animate__fadeInUp" data-wow-delay="0.2s">
+				<p class="pricing_item-title">Professional</p>
+				<p class="price">$<span>19</span></p>
+				<p class="pricing_item-subtitle price_subtitle-main">Monthly Payment</p>
+				<ul class="opportunities">
+					<li class="popular">OUR MOST POPULAR</li>
+					<li>5 gb of space</li>
+					<li>50 gb of bandwidth</li>
+					<li>12 websites</li>
+					<li>Advanced Customization</li>
+					<li>wordpress integration</li>
+					<li>email support</li>
+				</ul>
+			</div>
+			<div class="pricing_item wow animate__fadeInUp" data-wow-delay="0.4s">
+				<p class="pricing_item-title">Enterprise</p>
+				<p class="price">$<span>70</span></p>
+				<p class="pricing_item-subtitle">Monthly Payment</p>
+				<ul class="opportunities">
+					<li>Unlimited space</li>
+					<li>unlimited bandwidth</li>
+					<li>100 websites</li>
+					<li>Advanced Customization</li>
+					<li>wordpress integration</li>
+					<li>24/7 customer support</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
 
-<!--Contact us-->
-<div class="contact">
-    <div class="container">
-        <div class="pricing_inner">
-            <p class="pricing_title">CONTACT US</p>
-            <div style="margin: 20px 0"><img src="assets/img/divider_orange_u7 copy 4.png" alt="img"></div>
-            <p class="pricing_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+<section class="testimonials">
+	<div class="container">
+		<div class="testimonials_inner">
+			<p class="section-title">WHAT OUR CUSTOMERS ARE SAYING</p>
+			<div>
+				<img src="assets/img/orange-line.png" alt="line">
+			</div>
+			<p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur 
+				adipiscing elit.
+			</p>
+		</div>
+		<div class="testimonials_items">
+			<div class="testimonials_item wow animate__fadeInUp" data-wow-delay="0.2s">
+				<div class="testimonials_text">
+					<p class="text">Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit. Doloribus
+						accusamus expedita repellat similique
+						odio aspernatur ex, architecto eaque
+						quo suscipit.
+					</p>
+				</div>
+				<div class="person">
+					<img src="assets/img/avatar.png" alt="avatar">
+					<div class="person_info">
+						<p class="person_name">Jeremy H.</p>
+						<p class="person_post">Manager</p>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials_item wow animate__fadeInUp" data-wow-delay="0.4s">
+					<div class="testimonials_text">
+							<p class="text">Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit. Doloribus
+									accusamus expedita repellat similique
+									odio aspernatur ex, architecto eaque
+									quo suscipit.</p>
+					</div>
+					<div class="person">
+							<img src="assets/img/avatar.png" alt="avatar">
+							<div class="person_info">
+									<p class="person_name">John S.</p>
+									<p class="person_post">Freelancer</p>
+							</div>
+					</div>
+			</div>
+			<div class="testimonials_item wow animate__fadeInUp" data-wow-delay="0.6s">
+				<div class="testimonials_text">
+					<p class="text">Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit. Doloribus
+						accusamus expedita repellat similique
+						odio aspernatur ex, architecto eaque
+						quo suscipit.
+					</p>
+				</div>
+				<div class="person">
+					<img src="assets/img/avatar.png" alt="avatar">
+					<div class="person_info">
+						<p class="person_name">Susan W.</p>
+						<p class="person_post">Photographer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-        <form action="" class="contact_form">
-            <div class="contact_info">
-                <p><input type="text" name="Name" placeholder="Name"></p>
-                <p><input type="text" name="Email" placeholder="Email"></p>
-                <p><input type="text" name="Subject" placeholder="Subject"></p>
-            </div>
-            <div class="contact_massage">
-                <textarea class="massage" name="Massage" placeholder="Massage"></textarea>
-            </div>
-            <button class="contact_btn" type="submit">Send Message</button>
-        </form>
-    </div>
-</div>
+<section class="custom">
+	<div class="container">
+		<div class="custom_inner">
+			<p class="custom_title">STYLISH AXURE DESIGN</p>
+			<div>
+				<img src="assets/img/white-line.png" alt="line">
+			</div>
+			<p class="custom_subtitle">Use the sections you need, remove the ones you don't.
+				Create gorgeous prototypes faster than ever!
+			</p>
+			<button class="download_btn" href="#">Download</button>
+		</div>
+	</div>
+</section>
 
-<div class="footer">
-    <div class="container">
-        <p class="footer_title">© 2015 Axure Themes</p>
-    </div>
-</div>
+<section class="contact">
+	<div class="container">
+		<div class="contact_inner">
+			<p class="section-title">CONTACT US</p>
+			<div>
+				<img src="assets/img/orange-line.png" alt="line">
+			</div>
+			<p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<form class="contact_form">
+			<div class="contact_form-inner">
+				<div class="contact_info">
+					<p><input type="text" name="Name" placeholder="Name"></p>
+					<p><input type="text" name="Email" placeholder="Email"></p>
+					<p><input type="text" name="Subject" placeholder="Subject"></p>
+				</div>
+				<p class="contact_massage">
+					<textarea name="Massage" placeholder="Massage"></textarea>
+				</p>
+			</div>
+			<button class="contact_btn" type="submit">Send Message</button>
+		</form>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<p>© 2015 Axure Themes</p>
+	</div>
+</footer>
+
 </body>
 </html>
