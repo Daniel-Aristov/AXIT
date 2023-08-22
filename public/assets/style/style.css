@@ -255,12 +255,12 @@ body {
 	padding-top: 9px;
 }
 
-.feateres-slider {
+.feateres-tabs {
 	background-color: var(--bg--grey-light);
 	padding: 60px 0;
 }
 
-.feateres-slider_inner {
+.feateres-tabs_inner {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -292,6 +292,13 @@ body {
 
 .features-switch button.active {
 	background-color: var(--bg-orange-dark);
+}
+
+.tab-item {
+	display: none;
+}
+.tab-item.active {
+	display: flex;
 }
 
 .features-info {
