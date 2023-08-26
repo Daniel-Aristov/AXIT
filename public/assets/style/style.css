@@ -712,6 +712,13 @@ body {
 }
 
 @media screen and (max-width: 950px) {
+	.feateres-tabs_inner {
+		flex-direction: column;
+	}
+	.tab-item {
+		flex-direction: column;
+		align-items: center;
+	}
 	.features-card_inner {
 		flex-direction: column-reverse;
 	}
@@ -777,6 +784,13 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+	.nav a {
+		display: block;
+		margin: 10px 0;
+	}
+	.nav a::before {
+		display: none;
+	}
 	.contact_form-inner {
 		flex-direction: column;
 	}
